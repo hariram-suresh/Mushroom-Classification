@@ -5,7 +5,10 @@
 This project predicts whether a mushroom is **edible** or **poisonous** based on its physical characteristics using a machine learning model. The dataset comes from the Audubon Society Field Guide to North American Mushrooms and contains descriptions of gilled mushrooms in the Agaricus and Lepiota family. The project also includes a web application to interactively classify mushrooms using the trained model.
 
 ---
+## **LOGIN**
 
+USER ID: user
+PASSWORD: pass
 ## **Problem Statement**
 
 The main goal of this project is to predict whether a mushroom is edible or poisonous based on its attributes. The problem statement highlights:
