@@ -6,9 +6,9 @@ from sklearn.preprocessing import LabelEncoder
 
 logging.basicConfig(filename="user_access.log", level=logging.INFO, format="%(asctime)s - %(message)s")
 
-model = joblib.load("D:/Projects/iNeuron/Mushroom Classification/model.pkl")
+model = joblib.load("model.pkl")
 
-file_path = "D:/Projects/iNeuron/Mushroom Classification/mushrooms_done.csv"
+file_path = "mushrooms_data_detailed.csv"
 mushrooms_data = pd.read_csv(file_path)
 X = mushrooms_data.drop(columns=["class","odor"])
 
