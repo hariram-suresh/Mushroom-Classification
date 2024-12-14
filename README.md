@@ -8,7 +8,9 @@ This project predicts whether a mushroom is **edible** or **poisonous** based on
 ## **LOGIN**
 
 USER ID: user
-PASSWORD: pass
+PASSWORD: password
+
+---
 ## **Problem Statement**
 
 The main goal of this project is to predict whether a mushroom is edible or poisonous based on its attributes. The problem statement highlights:
