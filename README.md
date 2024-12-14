@@ -29,33 +29,27 @@ The main goal of this project is to predict whether a mushroom is edible or pois
 
 - **Data Exploration**: Performed exploratory data analysis (EDA) to understand the data distribution, visualize patterns, and detect anomalies.
 - **Data Cleaning**: Addressed missing values and standardized categorical values.
-- **Feature Engineering**: Applied encoding techniques (e.g., one-hot encoding or label encoding) to convert categorical features into numeric format.
-- **Data Splitting**: Split the dataset into training and testing sets (e.g., 80-20 split).
+- **Feature Engineering**: Applied encoding techniques (label encoding) to convert categorical features into numeric format.
+- **Data Splitting**: Split the dataset into training and testing sets (e.g., 70-30 split).
 
 ### **2. Model Development**
 
-- Tested multiple classical machine learning algorithms:
+- Tested a machine learning algorithm:
 
   - Decision Tree
-  - Random Forest
-  - Logistic Regression
-  - Gradient Boosting (XGBoost/LightGBM)
 
 - Selected the model with the best performance based on:
 
   - Accuracy
-  - Precision
-  - Recall
   - F1-Score
 
 ### **3. Model Evaluation**
 
-- Used metrics such as confusion matrix, ROC-AUC score, and cross-validation to evaluate model performance.
-- Performed hyperparameter tuning (e.g., GridSearchCV or RandomizedSearchCV) to optimize the selected model.
+- Used metrics such as confusion matrix and cross-validation to evaluate model performance.
 
 ### **4. Web Application**
 
-- Built a user-friendly web application using **Streamlit** (or Flask/Django):
+- Built a user-friendly web application using **Streamlit**:
   - Allows users to input mushroom features.
   - Predicts and displays whether the mushroom is edible or poisonous.
 
@@ -69,10 +63,10 @@ The main goal of this project is to predict whether a mushroom is edible or pois
 
 ### **Libraries Used:**
 
-- **Data Processing**: pandas, numpy
-- **Visualization**: matplotlib, seaborn
-- **Machine Learning**: scikit-learn, xgboost, lightgbm
-- **Web Framework**: Streamlit (or Flask/Django)
+- **Data Processing**: pandas, numpy, pickle, joblib
+- **Visualization**: klib, seaborn
+- **Machine Learning**: scikit-learn
+- **Web Framework**: Streamlit
 
 ---
 
